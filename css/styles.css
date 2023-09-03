@@ -26,7 +26,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .accent {
-color:  #f4f4fd
+color: var(--c-brand);
 
 }
 .nav-link{
@@ -171,4 +171,7 @@ letter-spacing: 0.02em;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.accent-footer{
+    color: #f4f4fd
 }
