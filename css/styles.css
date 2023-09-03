@@ -1,0 +1,55 @@
+:root {
+    --c-brand: #2E2F42;
+    --c-primary: #434455;
+    --c-primary-light: #FFFFFF;
+    --c-background: #2E2F42;
+    --c-background-light: #fff;
+  }
+  
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+a{
+    text-decoration:none
+}
+.logo   {
+    color: #4D5AE5;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.accent {
+color: var(--c-brand);
+}
+.nav-link{
+   color: var(--c-brand);
+}
+.contacts{
+color: var(--c-primary, #434455);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5em; 
+letter-spacing: 0.32px;
+}
+.hero-section{
+    background-color:var(--c-brand);
+}
+.hero-title{
+color: var(--c-background-light);
+font-size: 56px;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
+}
+.button{
+    color: #FFFFFF;
+    border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
