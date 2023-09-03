@@ -26,7 +26,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .accent {
-color: var(--c-brand);
+color:  #f4f4fd
 
 }
 .nav-link{
