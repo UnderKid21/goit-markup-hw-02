@@ -16,7 +16,7 @@ a{
 }
 .logo   {
     color: #4D5AE5;
-font-family: Raleway; sans-serif
+font-family: Raleway; sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -26,6 +26,13 @@ text-transform: uppercase;
 }
 .accent {
 color: var(--c-brand);
+font-family: Raleway; sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .nav-link{
    color: var(--c-brand);
