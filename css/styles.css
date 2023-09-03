@@ -8,18 +8,19 @@
   
 body{
     font-family: "Roboto", sans-serif;
-    
+    color: #434455
+    background-color var(--c-background-light)
 }
 a{
     text-decoration:none
 }
 .logo   {
     color: #4D5AE5;
-font-family: Raleway;
+font-family: Raleway; sans-serif
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px; 
+line-height: 1.17; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -28,6 +29,16 @@ color: var(--c-brand);
 }
 .nav-link{
    color: var(--c-brand);
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+
+}
+.nav-link:hover{
+    color: #404bbf
+    color: #404bbf
+
+
 }
 .contacts{
 color: var(--c-primary, #434455);
@@ -36,6 +47,12 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5em; 
 letter-spacing: 0.32px;
+}
+.contacts:hover{
+    color: #404bbf
+}
+.contacts:focus{
+    color: #404bbf
 }
 .hero-section{
     background-color:var(--c-brand);
