@@ -131,3 +131,26 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.title-portfolio{
+    color: var(--c-brand);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize
+}
+.portfolio-element{
+    color: var(--c-brand);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.portfolio-text{
+    color:var(--c-primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
